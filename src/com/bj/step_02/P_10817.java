@@ -13,11 +13,7 @@ public class P_10817 {
 		}
 		Arrays.sort(arr);
 		
-		if(arr[0]==arr[1] && arr[1]==arr[2]) {
-			System.out.println(arr[0]);
-		}else {
-			System.out.println(arr[1]);
-		}
+		System.out.println(arr[1]);
 
 	}
 
